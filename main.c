@@ -35,5 +35,6 @@ int main()
 {
 	uint8_t rx_buf[] = {1,2,3,4};
 	printf("CRC is calculated= %x\n",cal_crc_table(rx_buf,4));
+
 	return 0;
 }
