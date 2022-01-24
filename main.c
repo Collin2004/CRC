@@ -34,6 +34,6 @@ unsigned char cal_crc_table(unsigned char *ptr, unsigned char len)
 int main()
 {
 	uint8_t rx_buf[] = {1,2,3,4};
-	printf("CRCÐ£ÑéÂë£º0x%x\n",cal_crc_table(rx_buf,4));
+	printf("CRC = %x\n",cal_crc_table(rx_buf,4));
 	return 0;
 }
